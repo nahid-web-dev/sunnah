@@ -98,7 +98,7 @@ function Menu() {
                         return (
                           <div
                             key={idx}
-                            className="min-w-[200px] max-w-[250px] sm:max-w-full sm:min-w-[250px] md:min-w-0 flex-shrink-0 md:flex-shrink p-4 border rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 bg-white snap-center"
+                            className="shadow-box min-w-[200px] max-w-[250px] sm:max-w-full sm:min-w-[250px] md:min-w-0 flex-shrink-0 md:flex-shrink p-4 border rounded-lg bg-white snap-center"
                           >
                             <img
                               src={item.image}
